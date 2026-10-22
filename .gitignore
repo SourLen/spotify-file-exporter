@@ -1,0 +1,24 @@
+# Credentials and tokens
+.env
+.env.*
+!.env.example
+token.json
+
+# Personal music data and generated reports
+/tracks.json
+/search_cache.json
+/matched.csv
+/unmatched.csv
+/recovered_live_explicit.csv
+*.mp3
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local agent configuration
+/.agents/
+/.aws/
+/.codex/
